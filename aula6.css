@@ -11,7 +11,7 @@ html {
 
 
 header {
-    background-color: #bd7a22;
+    background-color: #ff97ca;
     padding: 20px;
 
     display: flex;
@@ -29,7 +29,7 @@ header i {
 header button {
     width: 13rem;
     height: 1rem;
-    background-color: #e79022;
+    background-color: #f0b1cf;
     border-radius: 1rem;
     padding: 1.3rem;
 
@@ -41,7 +41,7 @@ header button {
 
 
 .section-01 {
-    background-color: #4b2409;
+    background-color: #ebaed4;
     padding: 80px;
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@ header button {
 
 
 .section-02 {
-    background-color: #4b2409;
+    background-color: #f5cfea;
     padding: 80px;
     display: flex;
     justify-content: center;
@@ -70,12 +70,91 @@ header button {
 }
 
 
+.section-03 {
+    background-color: #e723bc;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div-pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    z-index: 1;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.caixa {
+    width: 250px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgb(214, 193, 193);
+    border-radius: 15px;
+    background-color: #ffd7e34f(233, 167, 223, 0.288);
+}
+
+
+.conteudo {
+    padding: 20px;
+    text-align: center;
+    transform: translateY(50px);
+    opacity: 2.0;
+    transition: 0.5;
+}
+
+
+.conteudo:hover {
+    opacity: 1;
+    transform: translateY(0px );
+}
+
+.conteudo h2 {
+    font-size: 1.8em;
+    z-index: 1;
+    color: rgb(255, 255, 255)
+}
+
+
+.conteudo p {
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+
+.conteudo a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 2.7rem;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
 footer {
-    background-color: #bd7a22;
+    background-color: #ff97ca;
     padding: 40px;
 }
 
 footer i {
     color: white;
     font-size: 2em;
+}
+
+footer h2 {
+    font-size: 1.8em;
+    z-index: 1;
+    color: white;
 }
