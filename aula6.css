@@ -19,12 +19,10 @@ header {
     align-items: center;
 }
 
-
 header i {
     color: black;
     font-size: 6em;
 }
-
 
 header button {
     width: 13rem;
@@ -38,10 +36,10 @@ header button {
     align-items: center;
 }
 
+
 .whats {
     position: relative; /*permite que elementos posicionados dentro da classe sejam posicionados em relação a ela*/
 }
-
 
 .whats img {
    position: fixed; /*mantem a imagem em ma posição fixa na tela mesmo ao rolar a página*/
@@ -133,7 +131,6 @@ header button {
     transition: 0.5;
 }
 
-
 .conteudo:hover {
     opacity: 1;
     transform: translateY(0px);
@@ -145,14 +142,12 @@ header button {
     color: white;
 }
 
-
 .conteudo p {
     font-size: 15px;
     color: white;
     font-weight: 300;
     margin-top: 1rem;
 }
-
 
 .conteudo a {
     position: relative;
@@ -213,7 +208,6 @@ footer h2 {
         flex-direction: column;
         gap: 15px;
     }
-
 
     .div-01 p {
         font-size: 1.5rem;
